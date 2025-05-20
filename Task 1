@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Trio Example</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to Web Development</h1>
+    <p>This is your first step into HTML, CSS, and JavaScript.</p>
+    <button>Click Me!</button>
+
+    <!-- Internal JavaScript -->
+    <script>
+        // Message in browser console when the page loads
+        console.log("Page has loaded successfully!");
+
+        // Optional: add button functionality
+        document.querySelector("button").addEventListener("click", function() {
+            alert("Button was clicked!");
+        });
+    </script>
+</body>
+</html>
+
+CSS
+/* Style for heading */
+h1 {
+    color: darkblue;
+}
+
+/* Style for paragraph */
+p {
+    font-size: 18px;
+}
